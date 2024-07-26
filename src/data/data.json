@@ -3,6 +3,7 @@
         "id": 1,
         "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
         "name": "Math",
+        "background":"/img/math-bg.jpg",
         "questions": [
             {
                 "id": 1,
@@ -98,7 +99,7 @@
     },
     {
         "id": 2,
-        "img": "https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png",
+        "img": "https://dean.clas.ufl.edu/wp-content/uploads/sites/7/AdobeStock_63982070-copy-2000x1200.jpg",
         "name": "Biology",
         "questions": [
             {
@@ -195,7 +196,7 @@
     },
     {
         "id": 3,
-        "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
+        "img": "https://assets.ltkcontent.com/images/44568/chemistry-beakers_27c5571306.jpg",
         "name": "Chemistry",
         "questions": [
             {
@@ -284,6 +285,297 @@
                         "id": 4,
                         "label": "D",
                         "text": "C3H8",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "img": "https://physics.ucc.edu.gh/sites/default/files/2022-02/physics_1.png",
+        "name": "Physics",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What is the other name of strong force?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "gravitational force",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "electrical force",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "magnetic force",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "nuclear force",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Who discovered the principle of interference of light?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Philip W. Anderson",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Thomas Young",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Robert Hooke",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Paul Ehrenfest",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "What is tribology?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "study of interaction of sliding surfaces",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "study of interaction of electromagnetic radiation with matter",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "study of interactions of various types of matter",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "study of interaction of volume temperature and gas pressure",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "img": "https://www.superprof.com.au/blog/wp-content/uploads/2019/03/map-3260506_640.jpg",
+        "name": "Geography",
+        "questions": [
+            {
+                "id": 1,
+                "text": "What is the oldest recorded town in the UK?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Colchester",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Liverpool",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "London",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Manchester",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "What country is known as Land of a Thousand Lakes?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Greece",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Finland",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "New Zeland",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "UK",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "In which state can you find the Grand Canyon?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "California",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "New Mexico",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Texas",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Arizona",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "img": "https://mastersavenue-test.s3.eu-west-2.amazonaws.com/uploads/Master%20of%20Informatics%20%26%20Information%20Sciences.jpg",
+        "name": "Informatics",
+        "questions": [
+            {
+                "id": 1,
+                "text": "what are the two types of memory categories?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "ROM and RAM",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "flashdrives and user ports",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "CDROMs and DVDs",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "control and central processing units",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "A set of instructions that communicates with the computer and tells it what to do is called which of the following?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "input devices",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "manual",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "software",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "hardware",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "which of the following is not a common input device?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "joystick",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "network",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "webcam",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "keyboard",
                         "isCorrect": false
                     }
                 ]

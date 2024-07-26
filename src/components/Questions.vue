@@ -1,61 +1,35 @@
 <script setup>
-  import { defineProps, defineEmits } from 'vue';
-  
-  const {question} = defineProps(['question'])
-  const emit = defineEmits(["selectOption"])
+import { defineProps, defineEmits } from "vue";
 
-  const emitSelectedOption = (isCorrect) => {
-    emit("selectOption", isCorrect)
-  }
+const { question } = defineProps(["question"]);
+const emit = defineEmits(["selectOption"]);
+
+const emitSelectedOption = (isCorrect) => {
+  emit("selectOption", isCorrect);
+};
 </script>
 
 <template>
-  <div class="question-container">
-    <h1 class="qouestion">{{question.text}}</h1>
-  </div>
-  <div class="options-container">
-    <div v-for="option in question.options" :key="option.id" 
-    class="option" 
-    @click='emitSelectedOption(option.isCorrect)'>
-      <p class="option-label">{{option.label}}</p>
-      <div class="option-value">
-        <p>{{option.text}}</p>
+  <div>
+    <div class="mt-5">
+      <h1 class="mb-8 text-4xl">{{ question.text }}</h1>
+    </div>
+    <div>
+      <div
+        v-for="option in question.options"
+        :key="option.id"
+        class="flex mb-8 cursor-pointer rounded-md"
+        @click="emitSelectedOption(option.isCorrect)"
+      >
+        <p
+          class="flex w-12 h-12 text-3xl items-center justify-center bg-blue-800 rounded-l-md"
+        >
+          {{ option.label }}
+        </p>
+        <div class="rounded-r-md w-full text-3xl px-5 bg-blue-500 flex">
+          <p class="pt-1">{{ option.text }}</p>
+        </div>
       </div>
     </div>
   </div>
 </template>
-
-<style scoped>
-.question-container {
-    margin-top: 20px;
-}
-
-.question {
-    font-size: 40px;
-    margin-bottom: 20px;
-
-}
-
-.option {
-    display: flex;
-    margin-bottom: 20px;
-    cursor: pointer;
-}
-
-.option-label {
-    background-color: bisque;
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.option-value {
-    background-color: rgb(244, 239, 239);
-    width: 100%;
-    font-size: 30px;
-    padding: 0 20px;
-}
-</style>

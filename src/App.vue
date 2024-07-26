@@ -3,17 +3,8 @@
 </script>
 
 <template>
-  <div class="container">
+  <div class="max-w-[1000px] my-0 mx-auto">
     <RouterView/>
   </div>
 </template>
-
-<style scoped>
-
-  .container {
-    max-width: 1000px;
-    margin: 0 auto
-  }
-
-</style>
 

@@ -6,22 +6,14 @@
 </script>
 
 <template>
-    <div class="results">
-        <p>Your results: </p>
-        <h1>{{numberOfCorrectAnswers}}/{{currentQuestionIndex}}</h1>
-        <RouterLink to="/">Go Back</RouterLink>
+    <div class="text-center pt-[150px] px-0">
+        <p class="text-5xl mb-5">Your results: </p>
+        <h1 class="text-9xl mb-5">{{numberOfCorrectAnswers}}/{{currentQuestionIndex}}</h1>
+        <RouterLink class=" flex justify-center items-center ml-[-15px]" to="/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24" fill="none">
+            <path d="M12.6772 19.5377C12.9742 19.8265 13.449 19.8198 13.7377 19.5228C14.0265 19.2258 14.0198 18.751 13.7228 18.4623L12.6772 19.5377ZM6 12L5.47719 11.4623C5.33195 11.6035 5.25 11.7974 5.25 12C5.25 12.2026 5.33195 12.3965 5.47719 12.5377L6 12ZM13.7228 5.53775C14.0198 5.24901 14.0265 4.77418 13.7377 4.47719C13.449 4.1802 12.9742 4.17351 12.6772 4.46225L13.7228 5.53775ZM17.4772 18.3708C17.7742 18.6595 18.249 18.6528 18.5378 18.3558C18.8265 18.0588 18.8198 17.584 18.5228 17.2952L17.4772 18.3708ZM12 12L11.4772 11.4622C11.332 11.6035 11.25 11.7974 11.25 12C11.25 12.2026 11.332 12.3965 11.4772 12.5378L12 12ZM18.5228 6.70476C18.8198 6.41603 18.8265 5.9412 18.5378 5.64421C18.249 5.34721 17.7742 5.34051 17.4772 5.62924L18.5228 6.70476ZM13.7228 18.4623L6.52281 11.4623L5.47719 12.5377L12.6772 19.5377L13.7228 18.4623ZM6.52281 12.5377L13.7228 5.53775L12.6772 4.46225L5.47719 11.4623L6.52281 12.5377ZM18.5228 17.2952L12.5228 11.4622L11.4772 12.5378L17.4772 18.3708L18.5228 17.2952ZM12.5228 12.5378L18.5228 6.70476L17.4772 5.62924L11.4772 11.4622L12.5228 12.5378Z" fill="#FFFFFF"/>
+        </svg>
+        <p class="text-3xl pb-1">Go Back</p>
+        </RouterLink>
     </div>
 </template>
-
-<style scoped>
-    .results {
-        text-align: center;
-        padding: 100px 0;
-    }
-    p {
-        font-size: 25px;
-    }
-    h1 {
-        font-size: 80px;
-    }
-</style>
